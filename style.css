@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    margin: 4em 0;
+}
+
+header .logo {
+    width: 120px;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+}
+
+.key {
+    background-color: #da1136;
+    border: .4rem solid #971a33;
+    margin: 1rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 .5rem black;
+    font-family: sans-serif;
+
+    transition: all .05s ease;
+}
+
+.key.playing {
+    transform: scale(1.1);
+    background-color: #971a33;
+    box-shadow: 0 0 1rem black;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
